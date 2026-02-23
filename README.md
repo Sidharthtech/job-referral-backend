@@ -1,4 +1,4 @@
-# 🚀 Job Referral Backend — GraphQL API
+# 🚀 Job Referral Backend: GraphQL API
 
 A **GraphQL-powered** backend for managing employee job referrals, built with **Apollo Server**, **Prisma ORM**, and **PostgreSQL**. Features JWT-based authentication and role-based access control for **Employees** and **HR** personnel.
 
