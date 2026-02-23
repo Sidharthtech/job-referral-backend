@@ -13,6 +13,12 @@ const server = new ApolloServer({
 
 const PORT = process.env.PORT || 4000;
 
-server.listen(PORT).then(({ url }) => {
+server.listen({
+  port: PORT,
+  cors: {
+    origin: "*",
+    credentials: true,
+  },
+}).then(({ url }) => {
   console.log(`🚀 Server ready at ${url}`);
 });
